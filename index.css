@@ -1,0 +1,149 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('image1.jpeg.png');
+    background-size:contain;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.8);
+
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.navbar nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+.navbar nav ul li {
+    margin: 0 1rem;
+}
+
+
+.navbar nav ul li a{
+    text-decoration:none;
+    color:black;
+    transition: color 0.3s, transform 0.3s;
+}
+
+
+.navbar nav ul li a:hover {
+    color:black; 
+    transform: scale(1.8); 
+    background-color:burlywood;
+}
+
+.hero {
+    text-align: center;
+    padding: 2rem;
+    background:white smoke;
+}
+
+.products {
+    padding: 2rem;
+}
+
+.product-list {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1rem; 
+}
+
+.product-item {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 8px;
+    background:rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 100%;
+    height:500px;
+    
+}
+
+.product-item button {
+    margin-top: 1rem;
+    padding: 10px 20px; 
+    background-color:burlywood; 
+    border:black;
+    color:burlywood;
+    cursor:pointer;
+    transition: background-color 0.3s, transform 0.3s; 
+    text-decoration: none;
+}
+
+.product-item button:hover {
+    background-color: #4cae4c; 
+    transform: scale(1.2); 
+}
+
+.about {
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+}
+
+.cart {
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.cart table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart table th,
+.cart table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.explore-button {
+    margin-top: 1rem;
+    padding: 12px 24px;
+    background-color:black;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    text-decoration: none;
+}
+
+.explore-button a {
+    color: white;
+    text-decoration: none;
+}
+
+.explore-button:hover {
+    background-color:indianred; 
+    transform: scale(1.3);}
+
+footer{
+    background-color:rgba(255, 255, 255, 0.8) ;
+    padding:20px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid black;
+
+}
